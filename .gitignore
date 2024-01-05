@@ -8,11 +8,11 @@ temp
 # Build files & folders
 /build
 /dist
+/release
 *.cfg
 *.spec
 
 # Ignore various file extensions
-*.pdf
 *.html
 *.zip
 *.bak

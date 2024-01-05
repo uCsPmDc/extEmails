@@ -38,7 +38,7 @@ def main():
     result = re.findall(r'\S+@\S+', s)            # Regex parses all email address text
 
     for r in result:                              # Loop and eliminate '<', '>' chars
-        emailStr += substr_swap(r, {">": "", "<": ""})
+        emailStr += substr_swap(r, {">": "", "<": "", ";": "; "})
 
     # print(emailStr, end='')
     pyperclip.copy(emailStr)                      # Put the clean email string back on the clipboard
