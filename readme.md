@@ -36,6 +36,6 @@ FirstName1 LastName1 - C00000 <Employee.number1@company.com>;FirstName2.LastName
 ### 3. Paste the re-factored email list where desired [CTRL-V]
 
 ```text
-Employee.number1@company.com;FirstName2FirstName2.LastName2@company.com
+Employee.number1@company.com;FirstName2.FirstName2.LastName2@company.com
 ```
 
