@@ -1,0 +1,24 @@
+# Ignore tool & test folders
+/_*
+
+.idea/
+.vscode
+temp
+
+# Build files & folders
+/build
+/dist
+*.cfg
+*.spec
+
+# Ignore various file extensions
+*.pdf
+*.html
+*.zip
+*.bak
+*.txt
+*.exe
+
+# Script auto-generated folders
+build
+
