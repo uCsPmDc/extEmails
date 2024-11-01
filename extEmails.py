@@ -7,8 +7,8 @@
 # Ref: https://pyinstaller.org/en/stable/spec-files.html
 #
 # Author:   uCsPmDc
-# Date:     Jan 5, 2024
-# Version:  1.0
+# Date:     Nov 1, 2024
+# Version:  1.1
 
 try:
     # importing regex module
@@ -22,7 +22,7 @@ except ModuleNotFoundError:
     print(f'   Please run "pip install -r requirements.txt"')
     print(f'   from the command line. Then try again.')
     print(f'----------------------------------------------')
-    exit(1)
+    exit
 
 def substr_swap(str_msg: str, dic: dict) -> str:
     ''' Replaces multiple substrings passed in with a dictionary
